@@ -81,7 +81,7 @@ A beautiful, full-stack todo application built with **FastAPI** and **React** th
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/rahulgurujala/modern-todo.git
    cd todo
    ```
 
