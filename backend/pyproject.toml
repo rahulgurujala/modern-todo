@@ -1,0 +1,22 @@
+[project]
+name = "todo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.14",
+    "passlib[bcrypt]>=1.7.4",
+    "python-jose[cryptography]>=3.5.0",
+    "python-multipart>=0.0.20",
+    "sqlmodel>=0.0.24",
+    "uvicorn[standard]>=0.34.3",
+    "email-validator>=2.0.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "black>=25.1.0",
+    "flake8>=7.3.0",
+    "isort>=6.0.1",
+]
